@@ -1,0 +1,50 @@
+/* *{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} */
+
+body{
+    background-color: #00b8d9;
+    background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+
+#quote-box{
+    background-color: #00b8d9;
+    background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+
+    width: 40rem;
+    margin: 10rem auto;
+    padding: 3rem;
+    border-radius: 5px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#text{
+    font-size:1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+#author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2rem;
+    font-family: 'EB Garamond', serif;
+}
+
+#buttons{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2rem;
+
+}
+
+#new-quote{
+    font-family: 'EB Garamond', serif;
+}
